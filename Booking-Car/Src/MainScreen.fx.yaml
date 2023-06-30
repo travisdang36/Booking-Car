@@ -51,7 +51,7 @@ MainScreen As screen:
                 Height: =Parent.Height
                 PaddingRight: =5.18
                 PaddingTop: =5.18
-                Text: ="BOOKING CAR"
+                Text: ="BOOKING CAR 123"
                 Width: =Parent.Width
                 X: =0.00
                 ZIndex: =2
