@@ -40,7 +40,7 @@
     "DatasetName": "https://ktgcomvn.sharepoint.com/sites/KTG",
     "EncodeDataset": true,
     "IsSampleData": false,
-    "IsWritable": true,
+    "IsWritable": false,
     "Name": "BookingCar_Car_Infor",
     "Type": "ConnectedDataSourceInfo"
   }

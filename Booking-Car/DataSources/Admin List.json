@@ -41,7 +41,7 @@
     "DatasetName": "https://ktgcomvn.sharepoint.com/sites/KTG",
     "EncodeDataset": true,
     "IsSampleData": false,
-    "IsWritable": true,
+    "IsWritable": false,
     "Name": "Admin List",
     "Type": "ConnectedDataSourceInfo"
   }
