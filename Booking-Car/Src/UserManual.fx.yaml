@@ -1,0 +1,95 @@
+UserManual As screen:
+    BackgroundImage: =Screenshot_3
+    ImagePosition: =ImagePosition.Stretch
+    OnVisible: |
+        =
+
+    Rectangle2_1 As rectangle:
+        Fill: =RGBA(170, 170, 170, 0.9)
+        Height: =Parent.Height
+        Width: =Parent.Width
+        ZIndex: =1
+
+    "'ContainerKhung nhỏ_1' As groupContainer.verticalAutoLayoutContainer":
+        Fill: =RGBA(250, 250, 250, 1)
+        Height: =Switch(App.ActiveScreen.Size, ScreenSize.Small, Parent.Height/1.2, Parent.Height/1.5)
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =Switch(App.ActiveScreen.Size,ScreenSize.ExtraLarge, Parent.Width/3,ScreenSize.Small,Parent.Width/1.1,Parent.Width/1.5)
+        X: =(Parent.Width-Self.Width)/2
+        Y: =(Parent.Height-Self.Height)/2
+        ZIndex: =2
+
+        Label_Title_2 As label:
+            Align: =Align.Center
+            Fill: =RGBA(175, 191, 224, 1)
+            FillPortions: =1
+            FontWeight: =FontWeight.Semibold
+            LayoutMinHeight: =10
+            Text: ="User Manual"
+            Width: =Parent.Width
+            X: =309
+            Y: =221
+            ZIndex: =1
+
+        Label_Title_3 As label:
+            Fill: =RGBA(250, 250, 250, 1)
+            FillPortions: =6
+            LayoutMinHeight: =10
+            LineHeight: =1.8
+            PaddingLeft: =20
+            Size: =11
+            Text: |-
+                ="Title: "&varItem1.Title &Char(13)&
+                "Created by: " &varItem1.'Created By'.DisplayName & Char(13) 
+                &"Departure: " &varItem1.Departure & "     -     " 
+                &varItem1.Destination & Char(13)& "Time: "&varItem1.StartTime & " - " &varItem1.EndTime 
+            Width: =Parent.Width
+            X: =309
+            Y: =221
+            ZIndex: =2
+
+        "'Đường kẻ_3' As rectangle":
+            Fill: =RGBA(238, 204, 204, 1)
+            Height: =1
+            Width: =Parent.Width
+            ZIndex: =6
+
+        Container7_34 As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            LayoutAlignItems: =LayoutAlignItems.Center
+            LayoutJustifyContent: =LayoutJustifyContent.End
+            LayoutMinHeight: =10
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            PaddingRight: =20
+            Width: =Parent.Width
+            ZIndex: =7
+
+            Label2_5 As label:
+                FillPortions: =Switch(App.ActiveScreen.Size,ScreenSize.Small, 0,2)
+                LayoutMinWidth: =1
+                Text: =""
+                Width: =20
+                ZIndex: =1
+
+            Button3_cancel_4 As button:
+                Color: =RGBA(0, 0, 0, 1)
+                Fill: =RGBA(202, 202, 202, 1)
+                FillPortions: =1
+                Height: =30
+                LayoutMinWidth: =10
+                OnSelect: |-
+                    =If( Value(Param("ITEM_ID")) > 0,
+                    Launch("https://apps.powerapps.com/play/e/default-1cb6424f-82b8-4009-8d28-71fabc6e1e3f/a/19c17a3c-a3be-4d58-bd38-6d97e610dfb8?tenantId=1cb6424f-82b8-4009-8d28-71fabc6e1e3f",{}, LaunchTarget.Replace));
+                    Navigate(MainScreen)
+                RadiusBottomLeft: =5
+                RadiusBottomRight: =5
+                RadiusTopLeft: =5
+                RadiusTopRight: =5
+                Size: =11
+                Text: ="Cancel"
+                X: =186
+                Y: =290
+                ZIndex: =5
+

@@ -1,0 +1,9 @@
+[
+  {
+    "IsComponentScoped": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "Count_Table_Edit",
+    "Type": "CollectionDataSourceInfo"
+  }
+]

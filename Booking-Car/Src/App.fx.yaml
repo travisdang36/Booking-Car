@@ -1,0 +1,26 @@
+App As appinfo:
+    BackEnabled: =false
+    OnStart: |+
+        =Set(varContainer15_NewForm,false);
+        Set(varContainer15_Detail,false);
+        Set(varContainer15_Edit,false);
+        Set(varMobileScreen_BookingList,false);
+        Set(varTemp,0);
+        Set(varUserLogin,User());
+        Set(varBookingCar_BookingRequest, BookingCar_BookingRequest);
+        
+        //SCREEN
+        Set(varItemID, Value(Param("ITEM_ID")));
+        Set(varItemSCREEN, Value(Param("SCREEN")));
+        If(!IsBlank(varItemID), Set(varItem1, LookUp(BookingCar_BookingRequest, varItemID = ID));Set(varContainer15_Detail,true) );
+        //If(varItemSCREEN=1, Set(varContainer15_Detail,true))
+        
+    StartScreen: =If(Value(Param("SCREEN"))=1,RatingScreen,MainScreen)
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+

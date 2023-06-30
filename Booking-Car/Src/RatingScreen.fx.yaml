@@ -1,0 +1,418 @@
+RatingScreen As screen:
+    BackgroundImage: =Screenshot_3
+    ImagePosition: =ImagePosition.Stretch
+    OnVisible: |
+        =
+
+    Rectangle2 As rectangle:
+        Fill: =RGBA(170, 170, 170, 0.9)
+        Height: =Parent.Height
+        Width: =Parent.Width
+        ZIndex: =1
+
+    "'ContainerKhung nhỏ' As groupContainer.verticalAutoLayoutContainer":
+        Fill: =RGBA(250, 250, 250, 1)
+        Height: =Switch(App.ActiveScreen.Size, ScreenSize.Small, Parent.Height/1.2, Parent.Height/1.5)
+        LayoutDirection: =LayoutDirection.Vertical
+        LayoutMode: =LayoutMode.Auto
+        Width: =Switch(App.ActiveScreen.Size,ScreenSize.ExtraLarge, Parent.Width/3,ScreenSize.Small,Parent.Width/1.1,Parent.Width/1.5)
+        X: =(Parent.Width-Self.Width)/2
+        Y: =(Parent.Height-Self.Height)/2
+        ZIndex: =2
+
+        Label_Title As label:
+            Align: =Align.Center
+            Fill: =RGBA(175, 191, 224, 1)
+            FillPortions: =1
+            FontWeight: =FontWeight.Semibold
+            LayoutMinHeight: =10
+            Text: ="Rating"
+            Width: =Parent.Width
+            X: =309
+            Y: =221
+            ZIndex: =1
+
+        Label_Title_1 As label:
+            Fill: =RGBA(250, 250, 250, 1)
+            FillPortions: =2
+            LayoutMinHeight: =10
+            LineHeight: =1.8
+            PaddingLeft: =20
+            Size: =11
+            Text: |-
+                ="Title: "&varItem1.Title &Char(13)&
+                "Created by: " &varItem1.'Created By'.DisplayName & Char(13) 
+                &"Departure: " &varItem1.Departure & "     -     " 
+                &varItem1.Destination & Char(13)& "Time: "&varItem1.StartTime & " - " &varItem1.EndTime 
+            Width: =Parent.Width
+            X: =309
+            Y: =221
+            ZIndex: =2
+
+        "'Đường kẻ_1' As rectangle":
+            Fill: =RGBA(238, 204, 204, 1)
+            Height: =1
+            Width: =Parent.Width
+            ZIndex: =3
+
+        Detail As groupContainer.verticalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            Fill: =RGBA(250, 250, 250, 1)
+            FillPortions: =5
+            Height: =Parent.Height/2
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutMinHeight: =100
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            PaddingBottom: =20
+            PaddingTop: =10
+            Visible: |-
+                =//true
+                false
+            Width: =Parent.Width
+            X: =(Parent.Width-Self.Width)/2
+            Y: =(Parent.Height-Self.Height)/2
+            ZIndex: =4
+
+            Container7_12 As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                LayoutAlignItems: =LayoutAlignItems.Center
+                LayoutMinHeight: =30
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                LayoutWrap: =true
+                Width: =Parent.Width
+                ZIndex: =1
+
+                Label6_10 As label:
+                    Align: =Align.Center
+                    FillPortions: =1
+                    FontWeight: =FontWeight.Semibold
+                    Size: =11
+                    Text: ="Name"
+                    ZIndex: =2
+
+                Label2_Name_3 As label:
+                    Align: =Align.Center
+                    FillPortions: =1
+                    Size: =11
+                    Text: =varItem1.'Created By'.DisplayName
+                    Width: =176
+                    X: =40
+                    Y: =114
+                    ZIndex: =3
+
+            Container7_13 As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                LayoutMinHeight: =30
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                LayoutWrap: =true
+                Width: =Parent.Width
+                ZIndex: =2
+
+                Label6_11 As label:
+                    Align: =Align.Center
+                    AlignInContainer: =AlignInContainer.Start
+                    FillPortions: =1
+                    FontWeight: =FontWeight.Semibold
+                    Size: =11
+                    Text: ="Phone"
+                    ZIndex: =1
+
+                Label_Phone_2 As label:
+                    Align: =Align.Center
+                    FillPortions: =1
+                    Size: =10
+                    Text: =varItem1.Phone
+                    Width: =99
+                    X: =71
+                    Y: =114
+                    ZIndex: =2
+
+            Container7_14 As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                LayoutMinHeight: =30
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                LayoutWrap: =true
+                Width: =Parent.Width
+                ZIndex: =6
+
+                Label6_12 As label:
+                    Align: =Align.Center
+                    AlignInContainer: =AlignInContainer.Start
+                    FillPortions: =1
+                    FontWeight: =FontWeight.Semibold
+                    Size: =11
+                    Text: ="Start time"
+                    ZIndex: =1
+
+                Label2_StartTime_2 As label:
+                    Align: =Align.Center
+                    FillPortions: =1
+                    Size: =10
+                    Text: =varItem1.StartTime
+                    Width: =137
+                    X: =322
+                    Y: =114
+                    ZIndex: =2
+
+            Container7_15 As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                LayoutMinHeight: =30
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                LayoutWrap: =true
+                Width: =Parent.Width
+                ZIndex: =7
+
+                Label6_13 As label:
+                    Align: =Align.Center
+                    AlignInContainer: =AlignInContainer.Start
+                    FillPortions: =1
+                    FontWeight: =FontWeight.Semibold
+                    Size: =11
+                    Text: ="End time"
+                    ZIndex: =1
+
+                Label2_EndTime_2 As label:
+                    Align: =Align.Center
+                    FillPortions: =1
+                    Size: =10
+                    Text: =varItem1.EndTime
+                    Width: =139
+                    X: =488
+                    Y: =114
+                    ZIndex: =2
+
+            Container7_16 As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                LayoutMinHeight: =30
+                LayoutMinWidth: =250
+                LayoutMode: =LayoutMode.Auto
+                LayoutWrap: =true
+                Width: =Parent.Width
+                ZIndex: =8
+
+                Label6_14 As label:
+                    Align: =Align.Center
+                    AlignInContainer: =AlignInContainer.Start
+                    FillPortions: =1
+                    FontWeight: =FontWeight.Semibold
+                    Size: =11
+                    Text: ="Return/ One way"
+                    ZIndex: =1
+
+                Label2_Return_2 As label:
+                    Align: =Align.Center
+                    FillPortions: =1
+                    Size: =10
+                    Text: =varItem1.'Return_Or_One way'.Value
+                    Width: =99
+                    X: =190
+                    Y: =114
+                    ZIndex: =2
+
+        Container_Rating As groupContainer.verticalAutoLayoutContainer:
+            FillPortions: =4
+            Height: =266
+            LayoutAlignItems: =LayoutAlignItems.Stretch
+            LayoutDirection: =LayoutDirection.Vertical
+            LayoutJustifyContent: =LayoutJustifyContent.SpaceBetween
+            LayoutMinHeight: =10
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            PaddingBottom: =10
+            PaddingLeft: =20
+            PaddingRight: =20
+            PaddingTop: =5
+            Width: =378
+            X: =1066
+            Y: =200
+            ZIndex: =5
+
+            Container7_18 As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                LayoutAlignItems: =LayoutAlignItems.Center
+                LayoutMinHeight: =30
+                LayoutMinWidth: =50
+                LayoutMode: =LayoutMode.Auto
+                LayoutWrap: =true
+                Width: =Parent.Width
+                ZIndex: =1
+
+                Label12 As label:
+                    FillPortions: =1
+                    Size: =11
+                    Text: ="On time"
+                    Width: =10
+                    ZIndex: =4
+
+                Rating2 As rating:
+                    Default: =3
+                    DisabledFill: =Self.Fill
+                    DisplayMode: =DisplayMode.Edit
+                    FillPortions: =1
+                    FocusedBorderColor: =Self.BorderColor
+                    Height: =30
+                    HoverFill: =Self.Fill
+                    LayoutMinHeight: =40
+                    LayoutMinWidth: =10
+                    Max: =5
+                    PressedFill: =Self.Fill
+                    RatingFill: =RGBA(238, 191, 56, 1)
+                    Width: =200
+                    X: =0
+                    Y: =0
+                    ZIndex: =5
+
+            Container7_19 As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                LayoutAlignItems: =LayoutAlignItems.Center
+                LayoutMinHeight: =30
+                LayoutMinWidth: =50
+                LayoutMode: =LayoutMode.Auto
+                LayoutWrap: =true
+                Width: =Parent.Width
+                ZIndex: =8
+
+                Label12_3 As label:
+                    FillPortions: =1
+                    Size: =11
+                    Text: ="Attitude"
+                    Width: =10
+                    ZIndex: =4
+
+                Rating2_3 As rating:
+                    Default: =3
+                    DisabledFill: =Self.Fill
+                    DisplayMode: =DisplayMode.Edit
+                    FillPortions: =1
+                    FocusedBorderColor: =Self.BorderColor
+                    Height: =30
+                    HoverFill: =Self.Fill
+                    LayoutMinHeight: =40
+                    LayoutMinWidth: =10
+                    PressedFill: =Self.Fill
+                    RatingFill: =RGBA(238, 191, 56, 1)
+                    Width: =200
+                    X: =0
+                    Y: =0
+                    ZIndex: =5
+
+            Container7_20 As groupContainer.horizontalAutoLayoutContainer:
+                AlignInContainer: =AlignInContainer.SetByContainer
+                LayoutAlignItems: =LayoutAlignItems.Center
+                LayoutMinHeight: =20
+                LayoutMinWidth: =50
+                LayoutMode: =LayoutMode.Auto
+                LayoutWrap: =true
+                Width: =Parent.Width
+                ZIndex: =9
+
+                Label12_4 As label:
+                    FillPortions: =1
+                    Size: =11
+                    Text: ="Cleaness"
+                    Width: =10
+                    ZIndex: =4
+
+                Rating2_4 As rating:
+                    Default: =3
+                    DisabledFill: =Self.Fill
+                    DisplayMode: =DisplayMode.Edit
+                    FillPortions: =1
+                    FocusedBorderColor: =Self.BorderColor
+                    Height: =30
+                    HoverFill: =Self.Fill
+                    LayoutMinHeight: =40
+                    LayoutMinWidth: =10
+                    PressedFill: =Self.Fill
+                    RatingFill: =RGBA(238, 191, 56, 1)
+                    Width: =200
+                    X: =0
+                    Y: =0
+                    ZIndex: =5
+
+        "'Đường kẻ' As rectangle":
+            Fill: =RGBA(238, 204, 204, 1)
+            Height: =1
+            Width: =Parent.Width
+            ZIndex: =6
+
+        Container7_17 As groupContainer.horizontalAutoLayoutContainer:
+            AlignInContainer: =AlignInContainer.SetByContainer
+            LayoutAlignItems: =LayoutAlignItems.Center
+            LayoutJustifyContent: =LayoutJustifyContent.End
+            LayoutMinHeight: =10
+            LayoutMinWidth: =250
+            LayoutMode: =LayoutMode.Auto
+            PaddingRight: =20
+            Width: =Parent.Width
+            ZIndex: =7
+
+            Label2_2 As label:
+                FillPortions: =Switch(App.ActiveScreen.Size,ScreenSize.Small, 0,1)
+                LayoutMinWidth: =1
+                Text: =""
+                Width: =20
+                ZIndex: =1
+
+            Button3_Yes_2 As button:
+                Color: =RGBA(0, 0, 0, 1)
+                Fill: =RGBA(202, 202, 202, 1)
+                FillPortions: =1
+                FontWeight: =FontWeight.Bold
+                Height: =30
+                LayoutMinWidth: =10
+                OnSelect: |
+                    =Patch(BookingCar_BookingRequest, LookUp(BookingCar_BookingRequest, ID = varItem1.ID), 
+                    {
+                       Rating_OnTime:Rating2.Value,
+                       'Rating_Attitude ':Rating2_3.Value,
+                       Rating_Clear:Rating2_4.Value,
+                       Trigger: "On",
+                       Status: "Rated"
+                    
+                    });
+                    If( Value(Param("ITEM_ID")) > 0,
+                    Launch("https://apps.powerapps.com/play/e/default-1cb6424f-82b8-4009-8d28-71fabc6e1e3f/a/19c17a3c-a3be-4d58-bd38-6d97e610dfb8?tenantId=1cb6424f-82b8-4009-8d28-71fabc6e1e3f",{}, LaunchTarget.Replace));
+                    Set(varBookingCar_BookingRequest, BookingCar_BookingRequest);
+                    Navigate(MainScreen);
+                    Set(varContainer15_Detail,false)
+                RadiusBottomLeft: =5
+                RadiusBottomRight: =5
+                RadiusTopLeft: =5
+                RadiusTopRight: =5
+                Size: =11
+                Text: ="Yes"
+                X: =379
+                Y: =290
+                ZIndex: =2
+
+            Label2_3 As label:
+                Text: =""
+                Width: =20
+                ZIndex: =3
+
+            Button3_cancel_2 As button:
+                Color: =RGBA(0, 0, 0, 1)
+                Fill: =RGBA(202, 202, 202, 1)
+                FillPortions: =1
+                Height: =30
+                LayoutMinWidth: =10
+                OnSelect: |-
+                    =If( Value(Param("ITEM_ID")) > 0,
+                    Launch("https://apps.powerapps.com/play/e/default-1cb6424f-82b8-4009-8d28-71fabc6e1e3f/a/19c17a3c-a3be-4d58-bd38-6d97e610dfb8?tenantId=1cb6424f-82b8-4009-8d28-71fabc6e1e3f",{}, LaunchTarget.Replace));
+                    Navigate(MainScreen)
+                RadiusBottomLeft: =5
+                RadiusBottomRight: =5
+                RadiusTopLeft: =5
+                RadiusTopRight: =5
+                Size: =11
+                Text: ="Cancel"
+                X: =186
+                Y: =290
+                ZIndex: =5
+

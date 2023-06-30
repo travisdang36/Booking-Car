@@ -1,0 +1,120 @@
+{
+  "4f207cca-2f2b-4f97-8ebf-1a133cad3dde": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3310/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://ktgcomvn.sharepoint.com/sites/KTG": {
+        "dataSources": {
+          "Admin List": {
+            "tableName": "640736ed-7b81-464c-89fa-e834b5b6ce8a"
+          },
+          "BookingCar_BookingRequest": {
+            "tableName": "09e899ac-90b6-487d-81cf-cfee95df55cc"
+          },
+          "Location_1": {
+            "tableName": "c64dbe3f-e06a-4f0d-adc1-1524345d001d"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Location_1",
+      "BookingCar_BookingRequest",
+      "Admin List",
+      "BookingCar_Car_Infor"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "4f207cca-2f2b-4f97-8ebf-1a133cad3dde"
+  },
+  "5d5f3684-ea4f-49f9-9fdd-4f5c883401f3": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Outlook",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/laborbol/partial-builds/390724148/1.0.1641.3326/office365/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Outlook"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "5d5f3684-ea4f-49f9-9fdd-4f5c883401f3"
+  },
+  "68b52d90-b33a-4b27-b604-c7352250acb0": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Office 365 Users",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1644/1.0.1644.3342/office365users/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_office365users",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {},
+    "dataSources": [
+      "Office365Users"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "68b52d90-b33a-4b27-b604-c7352250acb0"
+  },
+  "765b0c1b-7915-4d52-921d-c9aac68c31f3": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "Excel Online (Business)",
+      "iconUri": "https://connectoricons-prod.azureedge.net/releases/v1.0.1639/1.0.1639.3315/excelonlinebusiness/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_excelonlinebusiness",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "me,b%2521j__2MenQB0mfBPRAsDQKXMOoxERuEbFIndSFp-EMCH1jBmG1cHv6RJ8B4JaKlZV3,01CZ6J42QNL63OHJ4YLJGJIQPH43JVXCPE": {
+        "dataSources": {
+          "Table1": {
+            "tableName": "{645D7AE9-5C2A-4572-B326-4EA0A51B9C6D}"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Table1"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "765b0c1b-7915-4d52-921d-c9aac68c31f3"
+  },
+  "fbf3094e-6794-4a7a-8490-c729664da1f2": {
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/shgogna/globalperconnector-train1/1.0.1639.3310/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://ktgcomvn.sharepoint.com/sites/KTG": {
+        "dataSources": {
+          "BookingCar_Car_Infor": {
+            "tableName": "32101c96-004b-4bcb-817c-22997928b7ba"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "BookingCar_Car_Infor"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "fbf3094e-6794-4a7a-8490-c729664da1f2"
+  }
+}
