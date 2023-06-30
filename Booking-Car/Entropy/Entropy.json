@@ -497,14 +497,14 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/30/2023 07:14:18",
+  "HeaderLastSavedDateTimeUTC": "06/30/2023 07:17:40",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
-    "4f207cca-2f2b-4f97-8ebf-1a133cad3dde": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/d29efb1a9d2e4f8bb7bcad04b298bbb5\"",
-    "5d5f3684-ea4f-49f9-9fdd-4f5c883401f3": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/f8dd6f4196884f738c8b45b75ef05b35\"",
-    "68b52d90-b33a-4b27-b604-c7352250acb0": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/b59c02c67d9a41ef82fb4e5f3508db92\"",
-    "765b0c1b-7915-4d52-921d-c9aac68c31f3": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/5b86e6bad4e34b6ba35ca49a1d80d471\"",
-    "fbf3094e-6794-4a7a-8490-c729664da1f2": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/d29efb1a9d2e4f8bb7bcad04b298bbb5\""
+    "4f207cca-2f2b-4f97-8ebf-1a133cad3dde": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/shared-sharepointonl-b30d6659-dfbf-4539-977c-2a3794080a36\"",
+    "5d5f3684-ea4f-49f9-9fdd-4f5c883401f3": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/shared-office365-5dd46951-03ab-46eb-a7c0-bb21b2a0de9d\"",
+    "68b52d90-b33a-4b27-b604-c7352250acb0": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/shared-office365user-861372a4-ec61-476a-80cd-739551efdbad\"",
+    "765b0c1b-7915-4d52-921d-c9aac68c31f3": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/shared-excelonlinebu-e8984008-a0c5-4aa8-bd7c-f7edfb5aa58c\"",
+    "fbf3094e-6794-4a7a-8490-c729664da1f2": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/shared-sharepointonl-b30d6659-dfbf-4539-977c-2a3794080a36\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
@@ -516,12 +516,12 @@
     "Trắng": "11e00364-c522-4eaf-9dc4-a4d12391a989.png"
   },
   "LocalResourceRootPaths": {
-    "big logo": "https://docserverpwaprodeas.blob.core.windows.net/45502697-4ff7-40d3-9a2e-1519f5a4232b-1/resource/Assets0Images035a08ccd-a557-4014-a70b-eb74c31db48b.png?sv=2018-03-28&sr=b&sig=7rXaKf%2BFGwI9nWvXw1gbogStZRglKZOjgkpNuh%2FM27M%3D&spr=https&se=2023-07-01T07%3A21%3A48Z&sp=r",
-    "pexels-gradienta-6985276": "https://docserverpwaprodeas.blob.core.windows.net/45502697-4ff7-40d3-9a2e-1519f5a4232b-1/resource/Assets0Images0c4ceb84d-7c54-4ba3-a87f-4ac523502fa7.jpg?sv=2018-03-28&sr=b&sig=gkwNr2csvqt%2BrmF3KZc%2F%2FlqorgUw%2BSWKnKVtOkueiGo%3D&spr=https&se=2023-07-01T07%3A21%3A48Z&sp=r",
-    "pexels-gradienta-7130499": "https://docserverpwaprodeas.blob.core.windows.net/45502697-4ff7-40d3-9a2e-1519f5a4232b-1/resource/Assets0Images0a2c0ae46-3a0a-46a6-9aab-5c61c59a6b52.jpg?sv=2018-03-28&sr=b&sig=NcoifpttcCzDv1Tqn7e6HC%2BVI8tMz3Hhw0F3%2FCobm0M%3D&spr=https&se=2023-07-01T07%3A21%3A48Z&sp=r",
-    "pexels-gradienta-7130560": "https://docserverpwaprodeas.blob.core.windows.net/45502697-4ff7-40d3-9a2e-1519f5a4232b-1/resource/Assets0Images08ad3cf36-7abe-413a-8601-49f97c55b4d6.jpg?sv=2018-03-28&sr=b&sig=BauBxXv0ytjqOHTbAb53cnSJMpE93VUGOK7vuGe4pF4%3D&spr=https&se=2023-07-01T07%3A21%3A48Z&sp=r",
-    "Screenshot_3": "https://docserverpwaprodeas.blob.core.windows.net/45502697-4ff7-40d3-9a2e-1519f5a4232b-1/resource/Assets0Images0f917c983-494b-41a2-928c-bd30d500e66b.jpg?sv=2018-03-28&sr=b&sig=s4K%2Fk14lE8lslqCQbyJPR%2FIcBraRiyKAFxQwSD4o%2Br0%3D&spr=https&se=2023-07-01T07%3A21%3A48Z&sp=r",
-    "Trắng": "https://docserverpwaprodeas.blob.core.windows.net/45502697-4ff7-40d3-9a2e-1519f5a4232b-1/resource/Assets0Images011e00364-c522-4eaf-9dc4-a4d12391a989.png?sv=2018-03-28&sr=b&sig=TOm9N4uIznIDGWQEQ4z9jN0tJZ22fa23pZH%2Fdg%2F8qeU%3D&spr=https&se=2023-07-01T07%3A21%3A48Z&sp=r"
+    "big logo": "https://docserverpwaprodeas.blob.core.windows.net/c81f7690-9c9b-4db7-bfae-a0c92ebf518f-1/resource/Assets0Images035a08ccd-a557-4014-a70b-eb74c31db48b.png?sv=2018-03-28&sr=b&sig=MLqNb8PCrPsLE%2FhZ4J9%2FOMUnwq84RrQGw9E0IBBAfDg%3D&spr=https&se=2023-07-01T07%3A30%3A18Z&sp=r",
+    "pexels-gradienta-6985276": "https://docserverpwaprodeas.blob.core.windows.net/c81f7690-9c9b-4db7-bfae-a0c92ebf518f-1/resource/Assets0Images0c4ceb84d-7c54-4ba3-a87f-4ac523502fa7.jpg?sv=2018-03-28&sr=b&sig=AAAe%2FM0X4WcgSFgIPDSkfjCRXz3dlYwhnsMh%2FPUFjSg%3D&spr=https&se=2023-07-01T07%3A30%3A18Z&sp=r",
+    "pexels-gradienta-7130499": "https://docserverpwaprodeas.blob.core.windows.net/c81f7690-9c9b-4db7-bfae-a0c92ebf518f-1/resource/Assets0Images0a2c0ae46-3a0a-46a6-9aab-5c61c59a6b52.jpg?sv=2018-03-28&sr=b&sig=KYk1rcbsggIoT1YWbCUuDleApQJytaLvtQRqWrvs5e0%3D&spr=https&se=2023-07-01T07%3A30%3A18Z&sp=r",
+    "pexels-gradienta-7130560": "https://docserverpwaprodeas.blob.core.windows.net/c81f7690-9c9b-4db7-bfae-a0c92ebf518f-1/resource/Assets0Images08ad3cf36-7abe-413a-8601-49f97c55b4d6.jpg?sv=2018-03-28&sr=b&sig=e6j1h5wcWsindyqPw%2Fkygmh7Fw5w5ekgdktA8z9nmnY%3D&spr=https&se=2023-07-01T07%3A30%3A18Z&sp=r",
+    "Screenshot_3": "https://docserverpwaprodeas.blob.core.windows.net/c81f7690-9c9b-4db7-bfae-a0c92ebf518f-1/resource/Assets0Images0f917c983-494b-41a2-928c-bd30d500e66b.jpg?sv=2018-03-28&sr=b&sig=LFbYCc0sJCPP0Ir8bmZ9NsFrWODjTeMSCgYM705E0Ik%3D&spr=https&se=2023-07-01T07%3A30%3A18Z&sp=r",
+    "Trắng": "https://docserverpwaprodeas.blob.core.windows.net/c81f7690-9c9b-4db7-bfae-a0c92ebf518f-1/resource/Assets0Images011e00364-c522-4eaf-9dc4-a4d12391a989.png?sv=2018-03-28&sr=b&sig=c8up0%2FIaultxPNaiu%2BEC2LefVS5XOLVSkltnrvv51Ag%3D&spr=https&se=2023-07-01T07%3A30%3A18Z&sp=r"
   },
   "OldLogoFileName": "0fewxhco.jpg",
   "OrderComponentMetadata": {},
@@ -1564,7 +1564,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 3.2838964,
+    "AnalysisLoadTime": 2.4062386,
     "ControlCount": {
       "attachments": 3,
       "button": 18,
@@ -1586,7 +1586,7 @@
       "text": 19,
       "typedDataCard": 50
     },
-    "DeserializationLoadTime": 4.4062718
+    "DeserializationLoadTime": 4.5357311
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
