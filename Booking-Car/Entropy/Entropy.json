@@ -497,14 +497,14 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "06/30/2023 07:27:33",
+  "HeaderLastSavedDateTimeUTC": "07/03/2023 09:29:19",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
-    "4f207cca-2f2b-4f97-8ebf-1a133cad3dde": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/34b122712baa4c9eaf4b7b9dd8d09fd1\"",
-    "5d5f3684-ea4f-49f9-9fdd-4f5c883401f3": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/2c58a6d58ea64691ad581cf25b52750f\"",
-    "68b52d90-b33a-4b27-b604-c7352250acb0": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/b4c09b16dd434545b75228ce0664327e\"",
-    "765b0c1b-7915-4d52-921d-c9aac68c31f3": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/56ecbd02253d443aa82fdcffcb4fdad1\"",
-    "fbf3094e-6794-4a7a-8490-c729664da1f2": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/34b122712baa4c9eaf4b7b9dd8d09fd1\""
+    "4f207cca-2f2b-4f97-8ebf-1a133cad3dde": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/shared-sharepointonl-b30d6659-dfbf-4539-977c-2a3794080a36\"",
+    "5d5f3684-ea4f-49f9-9fdd-4f5c883401f3": "\"/providers/microsoft.powerapps/apis/shared_office365/connections/shared-office365-5dd46951-03ab-46eb-a7c0-bb21b2a0de9d\"",
+    "68b52d90-b33a-4b27-b604-c7352250acb0": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/shared-office365user-861372a4-ec61-476a-80cd-739551efdbad\"",
+    "765b0c1b-7915-4d52-921d-c9aac68c31f3": "\"/providers/microsoft.powerapps/apis/shared_excelonlinebusiness/connections/shared-excelonlinebu-e8984008-a0c5-4aa8-bd7c-f7edfb5aa58c\"",
+    "fbf3094e-6794-4a7a-8490-c729664da1f2": "\"/providers/microsoft.powerapps/apis/shared_sharepointonline/connections/shared-sharepointonl-b30d6659-dfbf-4539-977c-2a3794080a36\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
   "LocalResourceFileNames": {
@@ -516,12 +516,12 @@
     "Trắng": "0006.png"
   },
   "LocalResourceRootPaths": {
-    "big logo": "https://docserverpwaprodeas.blob.core.windows.net/f1694061-b426-49fe-8daa-c7275de3fb46-1/resource/Assets0Images00001.png?sv=2018-03-28&sr=b&sig=5%2FVfxFkwDvEjRFgEvJ5vKjv%2FOtIiTZSd1jSsUxtxz8M%3D&spr=https&se=2023-07-01T07%3A40%3A37Z&sp=r",
-    "pexels-gradienta-6985276": "https://docserverpwaprodeas.blob.core.windows.net/f1694061-b426-49fe-8daa-c7275de3fb46-1/resource/Assets0Images00002.jpg?sv=2018-03-28&sr=b&sig=iGxf1HlaH%2B6nhtENsIgWcFOs0vFnxrqUOqv7ZnQg8fU%3D&spr=https&se=2023-07-01T07%3A40%3A37Z&sp=r",
-    "pexels-gradienta-7130499": "https://docserverpwaprodeas.blob.core.windows.net/f1694061-b426-49fe-8daa-c7275de3fb46-1/resource/Assets0Images00003.jpg?sv=2018-03-28&sr=b&sig=W9fztn8zfEvjm5CYHnl0e83vGCBhni6msg%2FklhnMf1E%3D&spr=https&se=2023-07-01T07%3A40%3A37Z&sp=r",
-    "pexels-gradienta-7130560": "https://docserverpwaprodeas.blob.core.windows.net/f1694061-b426-49fe-8daa-c7275de3fb46-1/resource/Assets0Images00004.jpg?sv=2018-03-28&sr=b&sig=7n0Y7RsJ8LEoTwN2UpLFUCWy7JLG%2F3EE7A%2Bu%2FKkwo8M%3D&spr=https&se=2023-07-01T07%3A40%3A37Z&sp=r",
-    "Screenshot_3": "https://docserverpwaprodeas.blob.core.windows.net/f1694061-b426-49fe-8daa-c7275de3fb46-1/resource/Assets0Images00005.jpg?sv=2018-03-28&sr=b&sig=98Qp7MmNSYgdllcqyC9DQzDB9EEonQor0S%2B3l3x7kiA%3D&spr=https&se=2023-07-01T07%3A40%3A37Z&sp=r",
-    "Trắng": "https://docserverpwaprodeas.blob.core.windows.net/f1694061-b426-49fe-8daa-c7275de3fb46-1/resource/Assets0Images00006.png?sv=2018-03-28&sr=b&sig=FWcDRhKK3Uv%2FltM0oDtvIySe4EOGCutqMMpr70hrq7E%3D&spr=https&se=2023-07-01T07%3A40%3A37Z&sp=r"
+    "big logo": "https://docserverpwaprodeas.blob.core.windows.net/3081f4c2-8910-47d6-8116-35a9564193c0-1/resource/Assets0Images00001.png?sv=2018-03-28&sr=b&sig=5Cc6uQ5IjYZMF2PNh4x1F8w9VhoEUJmWIxG0Ag7kpBM%3D&spr=https&se=2023-07-04T02%3A04%3A28Z&sp=r",
+    "pexels-gradienta-6985276": "https://docserverpwaprodeas.blob.core.windows.net/3081f4c2-8910-47d6-8116-35a9564193c0-1/resource/Assets0Images00002.jpg?sv=2018-03-28&sr=b&sig=PJ01O77nD7OWLeg%2BqszcEy7lZx0gSLqKhUaIKanYZi4%3D&spr=https&se=2023-07-04T02%3A04%3A28Z&sp=r",
+    "pexels-gradienta-7130499": "https://docserverpwaprodeas.blob.core.windows.net/3081f4c2-8910-47d6-8116-35a9564193c0-1/resource/Assets0Images00003.jpg?sv=2018-03-28&sr=b&sig=RIKMjJt3WMdFeG39JCeApT12xZrMCvvWjCyPJcbS7%2F0%3D&spr=https&se=2023-07-04T02%3A04%3A28Z&sp=r",
+    "pexels-gradienta-7130560": "https://docserverpwaprodeas.blob.core.windows.net/3081f4c2-8910-47d6-8116-35a9564193c0-1/resource/Assets0Images00004.jpg?sv=2018-03-28&sr=b&sig=V45McFl%2BuVeCF2OlN36Zl7FNihw%2FiiDmP5mhOktwqJU%3D&spr=https&se=2023-07-04T02%3A04%3A28Z&sp=r",
+    "Screenshot_3": "https://docserverpwaprodeas.blob.core.windows.net/3081f4c2-8910-47d6-8116-35a9564193c0-1/resource/Assets0Images00005.jpg?sv=2018-03-28&sr=b&sig=0v28iCMjEWP%2BfwWlrwXE84XbE1JCDhcIm2F8U53%2Bdi0%3D&spr=https&se=2023-07-04T02%3A04%3A28Z&sp=r",
+    "Trắng": "https://docserverpwaprodeas.blob.core.windows.net/3081f4c2-8910-47d6-8116-35a9564193c0-1/resource/Assets0Images00006.png?sv=2018-03-28&sr=b&sig=PFekyul%2FCpjozfUhaGvknnOPuFtjaCeMFrEfmhjF4E8%3D&spr=https&se=2023-07-04T02%3A04%3A28Z&sp=r"
   },
   "OldLogoFileName": "logo.jpg",
   "OrderComponentMetadata": {},
@@ -1564,7 +1564,7 @@
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 2.4637417,
+    "AnalysisLoadTime": 2.3683146,
     "ControlCount": {
       "attachments": 3,
       "button": 18,
@@ -1586,7 +1586,7 @@
       "text": 19,
       "typedDataCard": 50
     },
-    "DeserializationLoadTime": 3.9789759
+    "DeserializationLoadTime": 5.1451768
   },
   "WasLocalDatabaseReferencesEmpty": true
 }

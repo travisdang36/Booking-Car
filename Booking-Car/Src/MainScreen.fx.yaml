@@ -398,9 +398,7 @@ MainScreen As screen:
                             /*
                             CountRows(Filter(MyCalendarEvents, DateValue(Text(Start)) = DateAdd(_firstDayInView,ThisItem.Value,Days))) > 0 &!Subcircle1_2.Visible && Title4_2.Visible
                             */
-                            !IsBlank(LookUp(BookingCar_BookingRequest, StartTime <= DateAdd(DateAdd(_firstDayInView,ThisItem.Value,TimeUnit.Days),23.5,TimeUnit.Hours)
-                            And DateAdd(_firstDayInView,ThisItem.Value,TimeUnit.Days) <= EndTime And Status = "Approved"
-                            ).StartTime)
+                             
                             
                             
                             //StartTime = DateAdd(_firstDayInView,ThisItem.Value,TimeUnit.Days)).ID)
