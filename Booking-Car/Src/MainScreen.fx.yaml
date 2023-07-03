@@ -4429,21 +4429,15 @@ MainScreen As screen:
                             Size: =11
                             Text: ="Edit"
                             Visible: |-
-                                =/*
-                                If(varItem1.Status = "Reject" 
-                                Or 
-                                (!IsBlank(LookUp('Admin List',varUserLogin.Email = Title And Role.Value = "AdminCar").Title) And varItem1.'Created By'.Email <> "reception@ktg.com.vn" )
-                                Or 
-                                !IsBlank(LookUp('Admin List',varUserLogin.Email = Title And Role.Value = "Driver").Title)
-                                Or (varItem1.StartTime < Now())
-                                ,false,true
-                                )
-                                */
+                                =
                                 
+                                
+                                /*
                                 If(varItem1.'Created By'.Email = varUserLogin.Email And
                                 varItem1.Status <> "Reject" And
                                 varItem1.StartTime > Now()
                                 ,true,false)
+                                */
                             ZIndex: =3
 
                         Label3_Space_2 As label:
